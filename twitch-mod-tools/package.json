@@ -10,6 +10,8 @@
   "author": "Suz Hinton",
   "license": "MIT",
   "dependencies": {
+    "applescript": "^1.0.0",
+    "dotenv": "^8.2.0",
     "node-notifier": "^6.0.0",
     "robotjs": "^0.5.1",
     "tmi.js": "^1.5.0"
