@@ -1,0 +1,17 @@
+{
+  "name": "twitch-mod-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "modtooldaemon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Suz Hinton",
+  "license": "MIT",
+  "dependencies": {
+    "node-notifier": "^6.0.0",
+    "robotjs": "^0.5.1",
+    "tmi.js": "^1.5.0"
+  }
+}
