@@ -95,4 +95,14 @@ set nightbotResult to do shell script ("/Users/noopkat/bin/twitch-scripts/setNig
 
 display notification nightbotResult with title "Nightbot Status" sound name "Glass"
 
+---------------------------------------------------
+-- OTHER STUFF --
+---------------------------------------------------
+
+-- run twitch chat tools for mods as a daemon
+do shell script "/usr/local/bin/node /Users/noopkat/bin/twitch-scripts/twitch-mod-tools/modtooldaemon.js > /dev/null 2>&1 &"
+
+-- disable TextExpander
+tell application "System Events" to keystroke "j" using {command down, shift down, option down, control down}
+
 
