@@ -12,7 +12,7 @@
   "dependencies": {
     "applescript": "^1.0.0",
     "dotenv": "^8.2.0",
-    "node-notifier": "^6.0.0",
+    "node-notifier": "^8.0.1",
     "robotjs": "^0.6.0",
     "tmi.js": "^1.5.0"
   }
